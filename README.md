@@ -3,8 +3,7 @@
 
 ## Paper
 
-* [DESENSITIZATION: Privacy-Aware and Attack-Preserving Crash Report (NDSS 2020)]
-(https://gts3.org/pages/publications.html#/)
+* [DESENSITIZATION: Privacy-Aware and Attack-Preserving Crash Report (NDSS 2020)](https://gts3.org/pages/publications.html#/)
 
 
 ## Overview
@@ -26,7 +25,7 @@ and minidumps.
 
 * Crashes:
 	- All the evaluated crashes are shared through the [link](http://128.61.240.170/desen-crashes.tar.gz)
-		due to size limit
+		due to size limit.
 	- desen-crashes/[benchmark]/: benign/malicious crashes used to evaluate, including
 		those from ffmpeg, php, chakra, firefox and tachikoma. Please refer to the paper
 		for more details.
