@@ -24,8 +24,8 @@ and minidumps.
 	- desen-src/minidump: parsing minidumps
 
 * Crashes:
-	- All the evaluated crashes are shared through the [link](http://128.61.240.170/desen-crashes.tar.gz)
-		due to size limit.
+	- All the evaluated crashes are shared through the [link](http://128.61.240.170/desen-crashes/crashes.tar.gz)
+		due to size limit (~34G compressed, ~1.7T decompressed).
 	- desen-crashes/[benchmark]/: benign/malicious crashes used to evaluate, including
 		those from ffmpeg, php, chakra, firefox and tachikoma. Please refer to the paper
 		for more details.
@@ -36,11 +36,13 @@ and minidumps.
 # setup
 $ export PATH=[pn_to_repo]/bin:$PATH
 
-# coredumps
-$ desen -c/--core [pn_to_coredump]
+# run
+$ desen -m [crash_format] -p [pn_to_crash]
 
-# minidumps
-$ desen -m/--minidump [pn_to_minidump]
+-m: {core,mini}
+-p: path to the processing crash
+-h: help message
+
 ```
 
 

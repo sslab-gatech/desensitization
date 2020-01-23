@@ -1,0 +1,4 @@
+#!/bin/bash
+ 
+ROOT=$(dirname "$0")
+python2 $ROOT/../desen-src/dumpcore.py "$@"
